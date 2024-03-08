@@ -1,0 +1,392 @@
+.container{
+    height: 50px;
+    position: relative;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    position: absolute;
+    left: 0;
+}
+
+body{
+    background-color: #0F0F0F;
+}
+
+.logo_div_font1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    left: 500px;
+    text-decoration: none;
+}
+
+.logo_div_font2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.hero_font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    letter-spacing: -5px;
+}
+
+.phone_animation {
+    position: relative;
+    height: 100vh;
+    background-color: #0F0F0F;
+    overflow: hidden;
+}
+
+.phone_animation > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pa_animation_center{
+    width: 250px;
+    z-index: 3;
+    margin-left: 35px;
+}
+
+.pa_position_l1{
+    position: absolute;
+    left: 375px;
+    width: 225px;
+    height: 450px;
+    z-index: 2;
+}
+
+.pa_position_r1{
+    position: absolute;
+    right: 350px;
+    width: 225px;
+    height: 450px;
+    z-index: 2;
+}
+
+.pa_position_l2{
+    position: absolute;
+    left: 225px;
+    width: 200px;
+    height: 400px;
+    z-index: 1;
+}
+
+.pa_position_r2{
+    position: absolute;
+    right: 200px;
+    width: 200px;
+    height: 400px;
+    z-index: 1;
+}
+
+.color_section > .color_section_main_heading{
+    position: absolute;
+    left: 150px;
+    top: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: white;
+    text-align: left;
+    margin: 0px;
+    letter-spacing: -5px;
+}
+
+.color_section > .color_section_sub_heading{
+    position: absolute;
+    left: 150px;
+    top: 475px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+}
+
+.color_section > .color_section_text{
+    position: absolute;
+    left: 150px;
+    top: 510px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+
+.color_section > .color_section_button{
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 20px;
+    width: 275px;
+    height: 50px;
+    border-radius: 45px;
+    letter-spacing: 1px;
+    left: 150px;
+    top: 600px;
+    border: none;
+}
+
+.brands_section_main_heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.story_section_main_heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: white;
+    text-align: left;
+    margin: 0px;
+    letter-spacing: -1px;
+    align-self: flex-end;
+}
+
+.story_section_text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    width: 450px;
+    line-height: 25px;
+}
+
+.story_section > .story_section_container{
+    position: absolute;
+    left: 150px;
+    top: 20vh;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.download_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.store{
+    width: 390px;
+    display: flex;
+    gap: 50px;
+}
+
+.app_store_rating{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 150px;
+    letter-spacing: -30px;
+    color: white;
+}
+
+.download_section_text{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    align-self: center;
+}
+
+.download_section_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12.5px;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 18px;
+    width: 275px;
+    height: 50px;
+    border-radius: 45px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    border: none;
+    height: 60px;
+}
+
+.two_download_section{
+    display: flex;
+}
+
+.review{
+    display: none;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 175px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.review_button {
+    width: 10px;
+    height: 10px;
+    background-color: #4d4a4a;
+    border-radius: 50%;
+}
+
+.review_button:visited{
+    background-color: #ffffff;
+}
+
+.review_button:active{
+    background-color: #ffffff;
+}
+
+
+.review:target {
+    display: block;
+}
+
+.review_button_container{
+    margin-left: 577px;
+    /* border: 2px solid red; */
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    gap: 7.5px;
+    margin-top: 15px;
+}
+
+.review_section_heading{
+    margin-top: 50px;
+    margin-right: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.faq_head{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-left: 150px;
+}
+
+.faq_ans{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: rgb(170, 166, 166);
+    font-weight: 400;
+    margin-left: 150px;
+    margin-top: 25px;
+    line-height: 25px;
+}
+
+.faq{
+    margin-top: 100px;
+    width: 1100px;
+}
+
+.faq_link{
+    color: #ffffff;
+}
+
+.faq_link:visited{
+    color: #ffffff;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer_heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.footer_option{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #9c9c9c;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.footer_option:visited{
+    color: #9c9c9c;
+}
+
+.footer_option:active{
+    color: #9c9c9c;
+}
+
+
+
+.footer_end{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 960px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.TC{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #726f6f;
+    font-weight: 400;
+}
+
+.Links{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 25px;
+}
